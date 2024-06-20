@@ -14,7 +14,7 @@ object EvaluateKotlinScript: BuildType({
     id = DslContext.createId("Evaluate".toId())
     name = "Evaluate"
 
-    val dataFile = File(DslContext.baseDir,"script/github-token.main.kts")
+    val dataFile = File(DslContext.baseDir,"/script/github-token.main.kts")
 
     steps {
         kotlinScript {
